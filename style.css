@@ -1,0 +1,742 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    font-family:"Jost", Arial, Helvetica, sans-serif;
+}
+
+html{
+    /* 10px=1rem */ 
+    font-size:62.5%;
+    font-size:calc(1em * .625); 
+    overflow-x:hidden
+}
+
+.body{ 
+    font-size:1rem
+}
+
+.container{
+    max-width: 164rem ;
+}
+
+.container-1640{
+    max-width: 164rem ;
+    margin: auto;
+}
+
+.container-2{
+    max-width: 150rem ;
+    margin: auto;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+    margin: auto !important;
+    vertical-align: middle;
+}
+
+.correct-padd-bottom-50{
+    padding-bottom: 5rem;
+}
+
+.correct-padd-top{
+    padding-top: 5rem;
+}
+
+/* COLORS */
+
+.yellow-bg{
+    background-color: #FFE401 ;
+}
+.grey-background{
+    background-color: #F8F8F8;
+}
+
+.yellow-color{
+    color: #FFE401;
+}
+.green-color{
+    color: #00A335;
+}
+
+.black-color{
+    color: black;
+}
+.grey-color{
+    color: #555555;
+}
+
+/* FONT */
+
+.light-txt{
+    font-weight: 200;
+}
+
+.medium-text{
+    font-weight: 500;
+}
+
+.semi-txt{
+    font-weight: 600;
+}
+
+.bold-txt{
+    font-weight: 700;
+}
+
+.txt-14{
+    font-size: 1.4rem;
+}
+
+.txt-16{
+    font-size: 1.6rem !important;
+}
+
+.txt-18{
+    font-size: 1.8rem;
+}
+.txt-22{
+    font-size: 2.2rem;
+}
+
+.txt-24{
+    font-size: 2.4rem;
+}
+
+.txt-25{
+    font-size: 2rem;
+}
+
+.txt-40{
+    font-size: 4rem;
+}
+
+.txt-50{
+    font-size: 3rem
+}
+
+/* NAVBAR */
+
+.navbar{
+    height: 10.4rem;
+    background-color: #FFF;
+    padding: 0;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler-icon{
+    width: 5rem;
+    height: 5rem
+}
+.cta{
+    transition: color .3s;
+}
+.cta:hover {
+    
+    background-color: #FFE401 !important;
+    border-radius: 1rem;
+}
+
+/* Borders pour faire les lignes dans la nav à bouger */
+
+
+/* padd à bouger dans le media query */
+.correct-padd{
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+.correct-padd-2{
+    padding-top: 3px;
+}
+
+.padding-top-33{
+    padding-top: 3.3rem;
+}
+
+
+.padding-top-86{
+    padding-top: 8.62rem;
+}
+
+.padding-top-15{
+    padding-top: 1.5rem;
+}
+.padding-bottom-10{
+    padding-bottom: 1rem;
+}
+
+/* Sections à bouger dans le media query 1184 */
+.yellow-section{
+    height: 85rem;
+}
+.grey-section{
+    
+    min-height: 40.7rem;
+}
+
+.nav-item{
+    background-color: #FFF;
+    display: flex !important;
+    height: 10.4rem;
+    width: auto;
+}
+/* MODIF comportement de base de la nav de bootstrap liens dans des flexs pour centrer le contenu */
+.center-item{
+    display: flex;
+    margin: auto !important;
+    vertical-align: middle;
+    height: 5.6rem;
+}
+.center-item-2{
+    display: flex;
+    width: 14.4rem;
+    margin: auto !important;
+    vertical-align: middle;
+    height: 5.6rem;
+}
+.center-item-3{
+    display: flex;
+    width: 16rem;
+    margin: auto !important;
+    vertical-align: middle;
+    height: 5.6rem;
+}
+
+.nav-link{
+    color: black !important;
+    padding: 0 !important;
+    line-height: 2.6rem;
+    margin: auto !important;
+    vertical-align: middle;
+}
+
+#navbarSupportedContent{
+    width: 100% !important;
+}
+
+.margin-right-20{
+    margin-right: 2rem;
+}
+.margin-bottom-30{
+    margin-bottom: 3rem;
+}
+
+.navbar-collapse{
+    background: white;
+}
+/* Opacity in mobile mode */
+.navbar{
+    z-index: 9999;
+}
+
+.fullheight{
+    height: 100%;
+}
+
+.center-title{
+    display: flex;
+    margin: auto !important;
+    vertical-align: middle;
+    height: 44.3rem;
+}
+.container-title{
+    max-height: 44.1rem;
+    width: 68rem;
+}
+
+
+ 
+.padding-left-50{
+    padding-left: 5rem;
+}
+
+.padd-bottom-17{
+    padding-bottom: 1.7rem;
+}
+
+.padding-0{
+    padding: 0;
+}
+
+.flex-content{
+    display: flex;
+    max-height: 40.5rem;   
+    margin: auto !important;
+    vertical-align: middle;
+}
+
+.white-paint{
+    background-image: url("img/paint-shape/whitepaint.svg");
+    background-repeat: no-repeat;
+}
+.yellow-paint{
+    background-position: center;
+    background-image: url("img/paint-shape/yellowpaint.svg");
+    background-repeat: no-repeat;
+
+}
+.padding-top-126{
+    padding-top: 8rem;
+}
+
+.mobile-padding-bottom-15{
+    padding-top: 1.5rem;
+}
+
+.btn-register{
+    margin-top: 2rem;
+    background-color: black;
+    color: white !important;
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    width: 27.6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.center-img{
+    margin: auto;
+}
+
+
+.container-img{
+    height: 40.5rem;
+    width: 69.4rem;
+}
+
+
+.block{
+    display: block;
+}
+
+.grey-card{
+    max-width: 53.6rem;
+    height: 47rem;
+    background-color: #FCFCFC;
+    border-radius: 1rem;
+    border: 1px solid #E8E8E8;  
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.margin-auto{
+    margin: auto !important;
+}
+
+.align-baseline{
+    align-items: baseline;
+}
+.align-center{
+    align-items: center;
+}
+
+.end-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-begin{
+    font-size: 1.4rem;
+    width: 14.4rem;
+    padding-top: 1.83rem;
+    padding-bottom: 1.83rem;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    background-color: #FFE401 ;
+    border-radius: 1rem;
+}
+
+.icones-line{
+    padding-right: 1.9rem;
+    padding-left: 0;
+}
+
+.margin-top-btn{
+    margin-top: 6.7rem;
+}
+
+.card-txt{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#title-white-section{
+    max-height: 16.3rem;
+    max-width: 81.2rem;
+}
+
+.flex-display{
+    display: flex;
+}
+
+.cours-btn{
+    font-size: 1.4rem;
+    padding-right: 1.9rem;
+    padding-left: 1.9rem;
+    padding-top: 1.83rem;
+    padding-bottom: 1.83rem;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    background-color: #EFEFEF;
+    border-radius: 1rem;
+}
+
+.padding-top-202{
+    padding-top: 20.2rem;
+}
+
+.max-height{
+    max-height: 56rem;
+}
+
+.txt-max-width{
+    max-width: 53.6rem;
+    height: auto;
+}
+.btn-online-courses{
+    font-size: 1.4rem;
+    padding-right: 1.9rem;
+    padding-left: 1.9rem;
+    padding-top: 1.83rem;
+    padding-bottom: 1.83rem;
+    border-radius: 1rem;
+    border: black solid 1px;
+    color: black;
+}
+.btn-subscription{
+    font-size: 1.4rem;
+    padding-right: 1.9rem;
+    padding-left: 1.9rem;
+    padding-top: 1.83rem;
+    padding-bottom: 1.83rem;
+    border-radius: 1rem;
+    border: black solid 1px;
+    color: black;
+}
+.black-section{
+    background-color: black;
+}
+#footer{
+    min-height: 39.8rem;
+    width: 100%;
+}
+
+.margin-0{
+    margin: 0;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.padding-right-152{
+    padding-right: 15.2rem;
+}
+
+.padding-left-90{
+    padding-left: 11rem;
+}
+
+.padding-top-10{
+    padding-top: 1rem;
+}
+
+.padding-top-73{
+    padding-top: 7.3rem;
+}
+
+.padding-top-185{
+    padding-top: 18.5rem;
+}
+
+.padding-left-15{
+    padding-left: 1.5rem;
+}
+
+.padding-bottom-100{
+    padding-bottom: 5rem;
+}
+
+
+.padding-right-5{
+    padding-right: 0.5rem;
+}
+.padding-top-78{
+    padding-top: 7.86rem;
+}
+
+.padding-bottom-185{
+    padding-bottom: 18.5rem;
+}
+
+.padding-left-124{
+    padding-left: 12.4rem;
+}
+
+.padding-left-50{
+    padding-left: 5rem;
+}
+
+.card-in-deck{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 7.1rem;
+}
+.header-deck{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-deck{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.ordered-section{
+    min-height: 56rem;
+    width: 100%;
+}
+.deck-ordered{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.padding-right-150{
+    padding-right: 15rem;
+}
+
+
+.grey-card-img{
+    width: 53.6rem;
+    height: 47rem;
+    background-color: #FCFCFC;
+    border-radius: 1rem;
+    border: 1px solid #E8E8E8;  
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-address{
+    width: 29.2rem;
+    height: auto;
+}
+
+.padding-15{
+    padding: 1.5rem;
+}
+
+
+
+.sized-card-txt{
+    height: 6.3rem;
+}
+
+
+
+
+/* Switch order mobile */
+
+.item1{
+    order: 0;
+}
+.item2{
+    width: 65rem;
+    order: 1;
+}
+.item3{
+    width: 65rem;
+    order: 3;
+}
+.item4{
+    order: 2;
+}
+
+.padding-top-185{
+    padding-top: 18.5rem;
+}
+
+.padding-bottom-50{
+    padding-bottom: 5rem;
+}
+
+
+
+
+/* REGLAGES ÉCRANS */
+
+@media screen and (min-width: 500px){
+
+    .txt-50{
+        font-size: 5rem
+    }
+    .txt-25{
+        font-size: 2rem;
+    }
+
+    @media screen and (min-width: 1200px){
+
+        .correct-padd-bottom-50{
+            padding-bottom: unset;
+        }
+
+        .mobile-padding-bottom-15{
+            padding-bottom: unset;
+        }
+
+        .padding-top-126{
+            padding-top: 12.6rem;
+        }
+        .padding-bottom-100{
+            transition: all;
+            padding-bottom: 10rem;
+        }
+        
+        /* Borders et padd dans la navigation desktop */
+        .br-l {
+            border-right: 1px solid #F8F8F8;
+        }
+        
+        .bb {
+            border-bottom: 3px solid black;
+        }
+
+        .correct-padd-right{
+            padding-right: 3rem;
+        }
+
+        /* Ordre des items pour version desktop*/
+        @media screen and (min-width: 1461px){
+            .item1{
+                order: 0;
+            }
+            .item2{
+                order: 1;
+            }
+            .item3{
+                order: 2;
+            }
+            .item4{
+                order: 3;
+            }
+
+            @media screen and (min-width: 1484px){
+            
+
+                /* Modif 1ere section jaune */
+    
+                h1{
+                    font-size: 7rem;
+                    font-weight: bold;
+                    margin: auto !important;
+                    vertical-align: middle;
+                }
+            
+                .correct-padd-top{
+                    padding-top: 5rem;
+                }
+    
+                .yellow-section{
+                    height: 80.7rem;
+                }
+    
+                .header-deck{
+                    justify-content: space-between;
+                }
+    
+                .btn-register{
+                    margin-top: 5rem;
+                }
+                .container-title{
+                    max-height: 44.1rem;
+                    width: 76rem;
+                }
+            }
+        }
+        
+        
+
+        
+
+            
+            
+        
+
+        
+    }
+
+
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+/* PREPARATION POUR LE CAROUSEL EN ATTENDANT DES PRÉCISIONS */
+#carousel{
+    height:40.5rem;
+    width:auto;
+}
+
+#cross-fading {
+    position:relative;
+    margin:0 auto;
+}
+
+#cross-fading img {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#cross-fading img#top:hover {
+    opacity:0;
+}
+
+
+
+
+
+
+
+
